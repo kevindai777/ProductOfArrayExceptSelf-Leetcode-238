@@ -7,6 +7,9 @@ let arr = [1,2,3,4]
 //O(n) approach where we fill in a 'left' and 'right' array w/ a cumulative product
 //up to that index. Then we multiply both arrays to get our answer.
 
+//For example, left here would be [1,1,2,6] and right here would be [24,12,4,1]
+//Multiplying them together would give us [24,12,8,6]
+
 let left = []
 let right = []
 let ans = []
